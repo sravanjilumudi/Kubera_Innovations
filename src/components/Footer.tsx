@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const footerLinks = {
@@ -39,30 +40,15 @@ export function Footer() {
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8">
-                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M20 4C20 4 8 12 8 22C8 28.627 13.373 34 20 34C26.627 34 32 28.627 32 22C32 12 20 4 20 4Z"
-                    fill="url(#footer-logo-gradient)"
-                  />
-                  <path
-                    d="M20 8C20 8 12 14 12 22C12 26.418 15.582 30 20 30C24.418 30 28 26.418 28 22C28 14 20 8 20 8Z"
-                    fill="#f9fafb"
-                  />
-                  <path
-                    d="M20 12C20 12 15 16 15 21C15 23.761 17.239 26 20 26C22.761 26 25 23.761 25 21C25 16 20 12 20 12Z"
-                    fill="url(#footer-logo-gradient)"
-                  />
-                  <defs>
-                    <linearGradient id="footer-logo-gradient" x1="8" y1="4" x2="32" y2="34" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#8BC34A" />
-                      <stop offset="1" stopColor="#6AAF29" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Mono Labs Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="font-bold text-lg text-gray-900">
-                Kubera<span className="text-mono-green-600">Systems</span>
+                Mono<span className="text-mono-green-600">Labs</span>
               </span>
             </Link>
             <p className="text-gray-600 text-sm mb-6 max-w-xs">
