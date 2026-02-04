@@ -42,13 +42,13 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image
                 src="/logo.png"
-                alt="Mono Labs Logo"
+                alt="Kubera Systems Logo"
                 width={32}
                 height={32}
                 className="w-8 h-8"
               />
               <span className="font-bold text-lg text-gray-900">
-                Mono<span className="text-mono-green-600">Labs</span>
+                Kubera<span className="text-mono-green-600">Systems</span>
               </span>
             </Link>
             <p className="text-gray-600 text-sm mb-6 max-w-xs">
