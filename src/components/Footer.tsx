@@ -26,9 +26,9 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: '#' },
-  { name: 'LinkedIn', icon: Linkedin, href: '#' },
-  { name: 'Twitter', icon: Twitter, href: '#' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com/kuberaio' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/kubera-innovations' },
+  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/kuberaio' },
   { name: 'Email', icon: Mail, href: 'mailto:info@kuberaio.com' },
 ]
 
@@ -59,6 +59,8 @@ export function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-white hover:bg-mono-green-50 border border-gray-200 hover:border-mono-green-300 flex items-center justify-center text-gray-500 hover:text-mono-green-600 transition-colors"
                   aria-label={social.name}
                 >
