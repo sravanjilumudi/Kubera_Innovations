@@ -26,9 +26,9 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com/kuberaio' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/kubera-innovations' },
-  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/kuberaio' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/monolabs.co.in' },
+  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
   { name: 'Email', icon: Mail, href: 'mailto:info@kuberaio.com' },
 ]
 
