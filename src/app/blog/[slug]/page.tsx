@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${post.title} | Kubera Systems Blog`,
+    title: `${post.title} | Kubera Innovations Blog`,
     description: post.excerpt,
   }
 }

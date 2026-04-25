@@ -1,6 +1,6 @@
-# Kubera Systems Website
+# Kubera Innovations Website
 
-A modern, Framer-style landing page for Kubera Systems - a hardware product development company specializing in electronics design, firmware engineering, and FPGA solutions.
+A modern, Framer-style landing page for Kubera Innovations - a hardware product development company specializing in electronics design, firmware engineering, and FPGA solutions.
 
 ## Tech Stack
 
@@ -168,4 +168,4 @@ The output will be in `.next/` folder.
 
 ## License
 
-MIT License - Kubera Systems
+MIT License - Kubera Innovations

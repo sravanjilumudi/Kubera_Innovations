@@ -13,7 +13,7 @@ const clients = [
     website: 'www.seloriz.com',
     contact: 'Muttanna K',
     role: 'Founder',
-    quote: 'Kubera Systems delivered exceptional hardware solutions that exceeded our expectations. Their attention to detail and technical expertise made our product vision a reality.',
+    quote: 'Kubera Innovations delivered exceptional hardware solutions that exceeded our expectations. Their attention to detail and technical expertise made our product vision a reality.',
     initials: 'MK',
   },
   {
@@ -22,16 +22,17 @@ const clients = [
     website: 'semicongate.com',
     contact: 'Technical Team',
     role: 'Engineering Partner',
-    quote: 'Working with Kubera Systems has been transformative for our electronics development. Their zero re-spin approach saved us significant time and resources.',
+    quote: 'Working with Kubera Innovations has been transformative for our electronics development. Their zero re-spin approach saved us significant time and resources.',
     initials: 'SC',
   },
+  
   {
     id: 'qbnox',
     company: 'Qbnox Systems',
     website: '',
     contact: 'Ugen',
     role: 'Director',
-    quote: 'The team at Kubera Systems combines deep technical knowledge with a collaborative approach. They delivered our complex hardware project on time with outstanding quality.',
+    quote: 'The team at Kubera Innovations combines deep technical knowledge with a collaborative approach. They delivered our complex hardware project on time with outstanding quality.',
     initials: 'QS',
   },
 ]
@@ -69,7 +70,7 @@ export function Testimonials() {
             Trusted By <span className="text-gradient">Industry Leaders</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Companies across diverse sectors trust Kubera Systems for their electronics product development needs.
+            Companies across diverse sectors trust Kubera Innovations for their electronics product development needs.
           </p>
         </AnimatedSection>
 

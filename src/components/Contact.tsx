@@ -47,7 +47,7 @@ export function Contact() {
     )
 
     // Open mailto link
-    window.location.href = `mailto:info@kubera.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@kuberaio.com?subject=${subject}&body=${body}`
 
     // Show success state
     setSubmitted(true)
@@ -101,10 +101,10 @@ export function Contact() {
                   <div>
                     <div className="text-sm text-gray-500 mb-1">Email</div>
                     <a
-                      href="mailto:info@kubera.com"
+                      href="mailto:info@kuberaio.com"
                       className="text-gray-900 hover:text-mono-green-600 transition-colors"
                     >
-                      info@kubera.com
+                      info@kuberaio.com
                     </a>
                   </div>
                 </div>
