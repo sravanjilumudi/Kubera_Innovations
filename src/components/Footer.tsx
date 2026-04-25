@@ -26,9 +26,9 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: '#' },
-  { name: 'LinkedIn', icon: Linkedin, href: '#' },
-  { name: 'Twitter', icon: Twitter, href: '#' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/monolabs.co.in' },
+  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
   { name: 'Email', icon: Mail, href: 'mailto:info@kuberaio.com' },
 ]
 
@@ -48,7 +48,7 @@ export function Footer() {
                 className="w-8 h-8"
               />
               <span className="font-bold text-lg text-gray-900">
-                Kubera<span className="text-mono-green-600">Innovations</span>
+                Kubera <span className="text-mono-green-600">Innovations</span>
               </span>
             </Link>
             <p className="text-gray-600 text-sm mb-6 max-w-xs">
@@ -59,7 +59,9 @@ export function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
-                  className="w-10 h-10 rounded-lg bg-white hover:bg-mono-green-50 border border-gray-200 hover:border-mono-green-300 flex items-center justify-center text-gray-500 hover:text-mono-green-600 transition-all duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-lg bg-white hover:bg-mono-green-50 border border-gray-200 hover:border-mono-green-300 flex items-center justify-center text-gray-500 hover:text-mono-green-600 transition-colors"
                   aria-label={social.name}
                 >
                   <social.icon className="w-5 h-5" />
