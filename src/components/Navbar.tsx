@@ -83,7 +83,7 @@ export function Navbar() {
                 className="w-8 h-8 md:w-10 md:h-10"
               />
               <span className="font-bold text-lg md:text-xl text-gray-900">
-                Kubera<span className="text-mono-green-600">Innovations</span>
+                Kubera <span className="text-mono-green-600">Innovations</span>
               </span>
             </Link>
 
