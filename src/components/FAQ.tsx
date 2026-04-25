@@ -9,11 +9,7 @@ const faqs = [
   {
     id: 'what-services',
     question: 'What services does Kubera Innovations offer?',
-<<<<<<< HEAD
     answer: 'We provide end-to-end electronics product development services including hardware architecture development, schematic design, PCB layout, signal & power integrity analysis, mechanical design integration, fabrication support, component sourcing, PCB assembly, bring-up & validation, and industry compliance certification.',
-=======
-    answer: 'We provide end-to-end electronics product development services including hardware architecture development, schematic design, PCB layout, signal & power integrity analysis, mechanical design, firmware engineering, and manufacturing support. Our expertise spans from concept to production-ready solutions.',
->>>>>>> 8683dfe5585dcd2cd42c294245b8d0b8037098b4
   },
   {
     id: 'zero-respin',
