@@ -71,13 +71,13 @@ export function Navbar() {
             <Link href="/" className="flex items-center gap-2 z-50">
               <Image
                 src="/logo.png"
-                alt="Kubera Systems Logo"
+                alt="Kubera Innovations Logo"
                 width={40}
                 height={40}
                 className="w-8 h-8 md:w-10 md:h-10"
               />
               <span className="font-bold text-lg md:text-xl text-gray-900">
-                Kubera<span className="text-mono-green-600">Systems</span>
+                Kubera<span className="text-mono-green-600">Innovations</span>
               </span>
             </Link>
 
