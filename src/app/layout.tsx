@@ -19,41 +19,15 @@ const spaceGrotesk = Space_Grotesk({
 
 /* ---------------- SEO Metadata ---------------- */
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kuberaio.com'),
-
-  title: {
-    default: 'Kubera Innovations | Electronics Product Development',
-    template: '%s | Kubera Innovations',
-  },
-
-  description:
-    '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
-
-  keywords: [
-    'electronics product development',
-    'PCB design',
-    'hardware design',
-    'FPGA design',
-    'embedded systems',
-    'signal integrity',
-    'power integrity',
-    'manufacturing support',
-  ],
-
-  authors: [{ name: 'Kubera Innovations' }],
-  creator: 'Kubera Innovations',
-  publisher: 'Kubera Innovations',
-
-  /* ---------------- Icons ---------------- */
+  title: 'Kubera Innovations | Electronics Product Development',
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon.png', type: 'image/png' },
-    ],
-    // apple: '/apple-touch-icon.png', // ❌ commented as requested
+    icon: '/favicon.ico',  
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
-
-  /* ---------------- Open Graph ---------------- */
+  description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
+  keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
+  authors: [{ name: 'Kubera Innovations' }],
   openGraph: {
     title: 'Kubera Innovations | Engineering the Future. Today.',
     description:
@@ -91,7 +65,7 @@ export const metadata: Metadata = {
 /* ---------------- Root Layout ---------------- */
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
 }) {
   return (
