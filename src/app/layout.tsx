@@ -19,7 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 
 /* ---------------- SEO Metadata ---------------- */
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kuberaio.com'), // ⚠️ change if needed
+  metadataBase: new URL('https://kuberaio.com'),
 
   title: {
     default: 'Kubera Innovations | Electronics Product Development',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       { url: '/favicon.ico' },
       { url: '/favicon.png', type: 'image/png' },
     ],
-    apple: '/apple-touch-icon.png', // optional
+    // apple: '/apple-touch-icon.png', // ❌ commented as requested
   },
 
   /* ---------------- Open Graph ---------------- */
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     siteName: 'Kubera Innovations',
     images: [
       {
-        url: '/og-image.png', // 🔥 add this in /public
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Kubera Innovations',
