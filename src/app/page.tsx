@@ -12,6 +12,13 @@ import { Contact } from '@/components/Contact'
 
 export default function Home() {
   return (
+    <main>
+      <h1>Kubera Innovations</h1>
+    </main>
+  )
+}
+export default function Home() {
+  return (
     <>
       <Hero />
       <VisionMission />

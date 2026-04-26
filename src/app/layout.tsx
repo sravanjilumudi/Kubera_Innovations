@@ -38,7 +38,10 @@ export const metadata: Metadata = {
     follow: true,
   },
 }
-
+export const metadata = {
+  title: "Kubera Innovations",
+  description: "ASIC, FPGA and Hardware Design Services",
+};
 export default function RootLayout({
   children,
 }: Readonly<{
