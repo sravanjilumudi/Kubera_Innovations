@@ -1,0 +1,248 @@
+[33mcommit b6c6cd583be7e3834e5e19da50cb1fa5ff85c2ab[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 16:26:46 2026 +0530
+
+    Removed merge conflicts
+
+[33mcommit 14dc68aa6a35bf05b9f98cc24e18d9c34793e5e6[m
+Merge: 63db34f 8683dfe
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 16:09:52 2026 +0530
+
+    Modified Kubera systems to Kubera innovations
+
+[33mcommit 63db34f6a5dd61d851d76693225a17779b915b02[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 16:08:11 2026 +0530
+
+    Modified Kubera systems to Kubera innovations
+
+[33mcommit 8683dfe5585dcd2cd42c294245b8d0b8037098b4[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 14:06:15 2026 +0530
+
+    Update Footer.tsx ( Linkedin -twitter and github pages link)
+
+[33mcommit b4e0c383c68fa89e426054c9f91ac0f26aa7c482[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 13:57:29 2026 +0530
+
+    Add social media links to Footer component
+
+[33mcommit 51a1e7107a9f9bafdfa5ee4b77e9e536840ec43f[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 13:55:44 2026 +0530
+
+    Update FAQ to change Kubera Systems to Kubera Innovations and update email
+
+[33mcommit f0dd0bfb5f28e75e2bc2f11f592c46f1099ff8b2[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 13:51:34 2026 +0530
+
+    Change title from KuberaInnovations to Kubera Innovations (with space)
+
+[33mcommit 241bdc7b193dc78512c3502840babc8b17602dc3[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 11:43:20 2026 +0530
+
+    Rebranded to Kubera Innovations (Footer was not updated earlier)Now updated
+
+[33mcommit 64833eb25f362832f632584dd5ed21f1bee12e3e[m
+Author: sravan <166795037+sravanjilumudi@users.noreply.github.com>
+Date:   Sat Apr 25 11:39:34 2026 +0530
+
+    Rebranded to Kubera Innovations from the Kubera Systems
+
+[33mcommit d8156c4eaae66a6f4a60e6f56ae18a4d61deadce[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Wed Feb 4 10:23:14 2026 -0500
+
+    Rebrand to Kubera Systems
+
+[33mcommit f947edd76caf550edd3c02d900707f37edb7bbfb[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Tue Feb 3 18:10:43 2026 -0500
+
+    Fix blog redirects, update phone number, and rebrand to MonoLabs
+    
+    - Add individual blog post pages with dynamic routing (/blog/[slug])
+    - Extract blog data to /src/data/blog.ts with helper functions
+    - Update phone number to +91 94918 44529
+    - Replace logo with new colorful design
+    - Rebrand from KuberaSystems to MonoLabs
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 3dcac9f4c68d71ed458dafa5fac48d1909f6b1cd[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Thu Jan 22 16:25:11 2026 -0500
+
+    Add real product images, new services, and update stats
+    
+    Images:
+    - Download real PCB/product images from manufacturers
+    - Replace SVG placeholders with actual product photos
+    - Zynq AI Accelerator, ESP32 Smartwatch, STM32 Touchscreen, FPGA Platform
+    
+    Services (2 new):
+    - Embedded Firmware & IoT Development
+    - Customised Product Development
+    
+    Stats:
+    - Change "100+ Products" to "20+ Products"
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit ee27bcd8668ac983649c91d5f13c4af3242b7a59[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Wed Jan 21 20:19:24 2026 -0500
+
+    Add product detail pages and update email
+    
+    - Create individual product pages at /products/[slug]
+    - Update product specs with detailed features from documentation
+    - Change all "Datasheet" buttons to "Learn More" linking to product pages
+    - Update email from info@kuberasystems.com to info@kubera.com
+    - Add detailedFeatures array for expanded product information
+    
+    Products now have dedicated pages:
+    - /products/zynq-ultrascale-ai-accelerator
+    - /products/esp32-smartwatch
+    - /products/stm32-touchscreen-module
+    - /products/custom-fpga-platforms
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 757f00254c7a6646864da8e183e1c0c92c2265a5[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Wed Jan 21 20:04:17 2026 -0500
+
+    Add Blog page and FAQ section
+    
+    - Create /blog page with placeholder articles and categories
+    - Add FAQ section with 8 common questions and answers
+    - Update navigation to include Blog link
+    - Add FAQ component to homepage
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 0ccb1c20b6301f026bd9415b018ceb34f3b0eb86[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Wed Jan 21 19:59:13 2026 -0500
+
+    Add IoT Masterclass to training courses
+    
+    - New 48-hour intermediate course covering IoT fundamentals
+    - Topics: MQTT & CoAP, Edge Computing, Cloud Integration, IoT Security
+    - Available in online and hybrid formats
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 2b8cf4138afb96a794f03d0507467ab549c013d9[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Wed Jan 21 19:38:10 2026 -0500
+
+    Rebrand to Kubera Systems with real client testimonials
+    
+    - Rename from Kubera Technology to Kubera Systems
+    - Update domain to kuberasystems.com
+    - Change email to info@kuberasystems.com
+    - Add real client testimonials (Seloriz, Semicongate, Qbnox Systems)
+    - Update all branding references across components
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 0673859b19944ace438100e0135a1b681049e535[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Tue Jan 13 16:27:47 2026 -0500
+
+    Rebrand from Mono Labs to Kubera Technology with light theme
+    
+    - Complete brand rename from "Mono Labs" to "Kubera Technology"
+    - Theme inverted from dark to light (white background, green accents)
+    - Updated all SEO metadata and branding references
+    - Added 11 new services for electronics product development
+    - Added 4 new products (Zynq AI Accelerator, ESP32 Smart Watch, etc.)
+    - Created new VisionMission and Industries components
+    - Updated stats: 20+ years, 100+ products, 0 re-spins, 6+ domains
+    - Updated contact info (Chennai office, UK coming soon)
+    - Updated process flow to 6 steps (Concept through Market)
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit ff2fed85f0900dc731fac3569826825b75afef54[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Mon Jan 5 08:51:21 2026 -0500
+
+    Fix deployment: Remove basePath for custom domain
+    
+    The basePath was set to '/MonoLabs-Website' for GitHub Pages subdirectory
+    hosting, but since we're using a custom domain (monolabs.co.in), assets
+    should be served from the root path.
+    
+    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 54a12352f20aad5c908224266810c3284ffcc07d[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sun Jan 4 18:02:33 2026 -0500
+
+    Add GitHub Actions workflow Add GitHub Pages deploy workflowfor GitHub Pages deployment
+
+[33mcommit 7be4046c50b33259da7a50d8f45af88bb869991f[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sun Jan 4 17:59:07 2026 -0500
+
+    Configure static export for GitHub Pages deployment
+    
+    - Add output: 'export' with basePath '/MonoLabs-Website' for GitHub Pages
+    - Remove API route (incompatible with static hosting)
+    - Update Contact form to use mailto instead of API
+    - Add .nojekyll file to prevent Jekyll processing
+    
+    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 8f4af41925b2f4274cb8640a2253c12487702a43[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sun Jan 4 17:50:02 2026 -0500
+
+    Create CNAME
+
+[33mcommit 23d046ec961c163e21fba15fa5a44543e03d52ec[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sun Jan 4 17:45:34 2026 -0500
+
+    Add index.md for GitHub Pages
+
+[33mcommit 840f4ecfa2d54599348535eab8e51997e7271bca[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sat Jan 3 04:42:23 2026 -0500
+
+    feat: Complete Mono Labs landing page website
+    
+    - Add Hero section with parallax effects and animated gradient orbs
+    - Add Services section with 4 service cards (Product Dev, Hardware, Firmware, FPGA)
+    - Add Products section with expandable data-driven grid
+    - Add Training section with 4 courses and format options
+    - Add Features/Why Choose Us section with 6 feature cards
+    - Add Process timeline (Discovery → Production)
+    - Add Testimonials/Stats section
+    - Add Contact form with Resend email integration
+    - Add responsive Navbar with mobile menu and scroll behavior
+    - Add Footer with links and social icons
+    - Configure Tailwind v4 with custom Mono Labs green palette
+    - Add Framer Motion animations throughout
+    - Set up for monolabs.co.in domain
+    
+    🤖 Generated with [Claude Code](https://claude.com/claude-code)
+    
+    Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+[33mcommit 0351ac13a036c7915e02a8aa6bb6ed6e28ff9a36[m
+Author: Prahaasn <prahaasn2145@gmail.com>
+Date:   Sat Jan 3 04:23:54 2026 -0500
+
+    Initial commit from Create Next App

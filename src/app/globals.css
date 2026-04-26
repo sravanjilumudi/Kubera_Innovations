@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 /* Kubera Innovations Custom Theme - Light Mode */
+
 @theme inline {
   /* Kubera Green Palette */
   --color-mono-green-50: #f0fdf4;

@@ -8,11 +8,12 @@ import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
-  { name: 'Services', href: '#services' },
-  { name: 'Products', href: '#products' },
-  { name: 'Training', href: '#training' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '#contact' },
+
+  { name: 'Services', href: '/#services' },
+  { name: 'Products', href: '/#products' },
+  { name: 'Training', href: '/#training' },
+  { name: 'Blog', href: '/#blog' },
+  { name: 'Contact', href: '/#contact' },
 ]
 
 export function Navbar() {
@@ -21,20 +22,23 @@ export function Navbar() {
   const [hasScrolled, setHasScrolled] = useState(false)
   const { scrollY } = useScroll()
 
+  // useMotionValueEvent(scrollY, 'change', (latest) => {
+  //   const previous = scrollY.getPrevious() ?? 0
+
+  //   // Hide navbar when scrolling down, show when scrolling up
+  //   if (latest > previous && latest > 150) {
+  //     setIsHidden(true)
+  //     setIsMobileOpen(false)
+  //   } else {
+  //     setIsHidden(false)
+  //   }
+
+  //   // Add background when scrolled
+  //   setHasScrolled(latest > 50)
+  // })
   useMotionValueEvent(scrollY, 'change', (latest) => {
-    const previous = scrollY.getPrevious() ?? 0
-
-    // Hide navbar when scrolling down, show when scrolling up
-    if (latest > previous && latest > 150) {
-      setIsHidden(true)
-      setIsMobileOpen(false)
-    } else {
-      setIsHidden(false)
-    }
-
-    // Add background when scrolled
-    setHasScrolled(latest > 50)
-  })
+  setHasScrolled(latest > 50)
+})
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
@@ -51,6 +55,9 @@ export function Navbar() {
   const handleNavClick = () => {
     setIsMobileOpen(false)
   }
+  useMotionValueEvent(scrollY, 'change', (latest) => {
+  setHasScrolled(latest > 50)
+} )
 
   return (
     <>
@@ -77,7 +84,7 @@ export function Navbar() {
                 className="w-8 h-8 md:w-10 md:h-10"
               />
               <span className="font-bold text-lg md:text-xl text-gray-900">
-                Kubera<span className="text-mono-green-600">Innovations</span>
+                Kubera <span className="text-mono-green-600">Innovations</span>
               </span>
             </Link>
 

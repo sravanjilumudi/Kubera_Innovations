@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description: 'Accelerating ideas into scalable electronics. End-to-end product development with zero design re-spins.',
     url: 'https://kuberainnovations.com',
     siteName: 'Kubera Innovations',
+
     type: 'website',
     locale: 'en_US',
   },

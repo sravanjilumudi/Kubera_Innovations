@@ -105,6 +105,7 @@ export function Contact() {
                       className="text-gray-900 hover:text-mono-green-600 transition-colors"
                     >
                       info@kuberaio.com
+
                     </a>
                   </div>
                 </div>

@@ -27,7 +27,7 @@ const footerLinks = {
 
 const socialLinks = [
   { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/monolabs.co.in' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/kuberaio.com' },
   { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
   { name: 'Email', icon: Mail, href: 'mailto:info@kuberaio.com' },
 ]
@@ -43,6 +43,7 @@ export function Footer() {
               <Image
                 src="/logo.png"
                 alt="Kubera Innovations Logo"
+
                 width={32}
                 height={32}
                 className="w-8 h-8"
@@ -59,9 +60,8 @@ export function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-white hover:bg-mono-green-50 border border-gray-200 hover:border-mono-green-300 flex items-center justify-center text-gray-500 hover:text-mono-green-600 transition-colors"
+
+                  className="w-10 h-10 rounded-lg bg-white hover:bg-mono-green-50 border border-gray-200 hover:border-mono-green-300 flex items-center justify-center text-gray-500 hover:text-mono-green-600 transition-all duration-200"
                   aria-label={social.name}
                 >
                   <social.icon className="w-5 h-5" />
@@ -124,6 +124,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
             &copy; {new Date().getFullYear()} Kubera Innovations. All rights reserved.
+
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             <Link href="#" className="hover:text-gray-700 transition-colors">
