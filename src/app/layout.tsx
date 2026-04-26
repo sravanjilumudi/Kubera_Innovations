@@ -17,6 +17,13 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'Kubera Innovations | Electronics Product Development',
   description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
+    icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+  },
+
   keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
   authors: [{ name: 'Kubera Innovations' }],
   openGraph: {
@@ -39,6 +46,8 @@ export const metadata: Metadata = {
   },
 }
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -53,4 +62,8 @@ export default function RootLayout({
       </body>
     </html>
   )
+  
+}
+
+  // rest of your existing code unchanged
 }
