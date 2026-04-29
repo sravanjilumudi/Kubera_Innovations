@@ -9,14 +9,29 @@ import { Industries } from '@/components/Industries'
 import { Testimonials } from '@/components/Testimonials'
 import { FAQ } from '@/components/FAQ'
 import { Contact } from '@/components/Contact'
-
 export default function Home() {
   return (
-    <main>
-      <h1>Kubera Innovations</h1>
-    </main>
-  )
+    <>
+      <main>
+        <h1>Kubera Innovations</h1>
+      </main>
+
+      <Hero />
+      <VisionMission />
+      <Services />
+      <Industries />
+      <Products />
+      <Process />
+      <Features />
+      <Training />
+      <Testimonials />
+      <FAQ />
+      <Contact />
+    </>
+  );
 }
+
+/* 
 export default function Home() {
   return (
     <>
@@ -34,3 +49,6 @@ export default function Home() {
     </>
   );
 }
+
+
+*/
