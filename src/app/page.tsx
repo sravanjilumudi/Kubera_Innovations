@@ -9,12 +9,15 @@ import { Industries } from '@/components/Industries'
 import { Testimonials } from '@/components/Testimonials'
 import { FAQ } from '@/components/FAQ'
 import { Contact } from '@/components/Contact'
+
 export default function Home() {
   return (
-    <>
-      <main>
-        <h1>Kubera Innovations</h1>
-      </main>
+    <main>
+      {/* 
+          Visually hidden or styled H1 for SEO. 
+          Usually, the Hero component contains the main heading. 
+      */}
+      <h1 className="sr-only">Kubera Innovations</h1>
 
       <Hero />
       <VisionMission />
@@ -27,7 +30,7 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <Contact />
-    </>
+    </main>
   );
 }
 
