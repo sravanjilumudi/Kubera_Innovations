@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       {/* 
           Visually hidden H1 for SEO. 
-          The Hero component should contain your visible <h1>. 
+          The Hero component should contain your visible primary heading. 
       */}
       <h1 className="sr-only">Kubera Innovations | Electronics Product Development</h1>
 
