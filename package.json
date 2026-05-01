@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "kubera-Innovations-website",
+=======
+  "name": "kubera-innovations-website",
+>>>>>>> b40223c740da8d27f52a324c8ef48f7ffe8f82db
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,9 +22,6 @@
     "resend": "^6.6.0",
     "tailwind-merge": "^3.4.0"
   },
-  "scripts": {
-  "dev": "next dev"
-},
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
