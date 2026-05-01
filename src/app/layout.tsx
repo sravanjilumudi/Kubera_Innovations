@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
   keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
   authors: [{ name: 'Kubera Innovations' }],
+  // --- GOOGLE SITE VERIFICATION ADDED HERE ---
+  verification: {
+    google: 'RPcrYwROqs0YBzCnThHMvhgG1aOWOnvHO3UrwuOFWf4',
+  },
   icons: {
     icon: '/favicon.ico',  
     shortcut: '/favicon.ico',
