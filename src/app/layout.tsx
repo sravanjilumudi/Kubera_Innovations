@@ -23,7 +23,6 @@ export const metadata: Metadata = {
   description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
   keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
   authors: [{ name: 'Kubera Innovations' }],
-  // --- GOOGLE SITE VERIFICATION ADDED HERE ---
   verification: {
     google: 'RPcrYwROqs0YBzCnThHMvhgG1aOWOnvHO3UrwuOFWf4',
   },
@@ -86,10 +85,7 @@ export default function RootLayout({
   };
 
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${spaceGrotesk.variable}`}
-    >
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <head>
         <script
           type="application/ld+json"

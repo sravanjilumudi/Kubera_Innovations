@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main>
       {/* 
-          Visually hidden or styled H1 for SEO. 
-          Usually, the Hero component contains the main heading. 
+          Visually hidden H1 for SEO. 
+          The Hero component should contain your visible <h1>. 
       */}
-      <h1 className="sr-only">Kubera Innovations</h1>
+      <h1 className="sr-only">Kubera Innovations | Electronics Product Development</h1>
 
       <Hero />
       <VisionMission />
@@ -33,25 +33,3 @@ export default function Home() {
     </main>
   );
 }
-
-/* 
-export default function Home() {
-  return (
-    <>
-      <Hero />
-      <VisionMission />
-      <Services />
-      <Industries />
-      <Products />
-      <Process />
-      <Features />
-      <Training />
-      <Testimonials />
-      <FAQ />
-      <Contact />
-    </>
-  );
-}
-
-
-*/
