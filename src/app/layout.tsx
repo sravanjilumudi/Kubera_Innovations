@@ -20,18 +20,17 @@ const spaceGrotesk = Space_Grotesk({
 /* ---------------- SEO Metadata ---------------- */
 export const metadata: Metadata = {
   title: 'Kubera Innovations | Electronics Product Development',
+  description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
+  keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
+  authors: [{ name: 'Kubera Innovations' }],
   icons: {
     icon: '/favicon.ico',  
     shortcut: '/favicon.ico',
     apple: '/favicon.ico',
   },
-  description: '20+ years of expertise in end-to-end electronics product development. From concept to manufacturing-ready hardware solutions. Zero design re-spins guaranteed.',
-  keywords: ['electronics product development', 'PCB design', 'hardware design', 'FPGA', 'embedded systems', 'signal integrity', 'power integrity', 'manufacturing support'],
-  authors: [{ name: 'Kubera Innovations' }],
   openGraph: {
     title: 'Kubera Innovations | Engineering the Future. Today.',
-    description:
-      'Accelerating ideas into scalable electronics. End-to-end product development with zero design re-spins.',
+    description: 'Accelerating ideas into scalable electronics. End-to-end product development with zero design re-spins.',
     url: 'https://kuberaio.com',
     siteName: 'Kubera Innovations',
     images: [
@@ -45,17 +44,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-
-  /* ---------------- Twitter ---------------- */
   twitter: {
     card: 'summary_large_image',
     title: 'Kubera Innovations | Electronics Product Development',
-    description:
-      'Accelerating ideas into scalable electronics. 20+ years of expertise.',
+    description: 'Accelerating ideas into scalable electronics. 20+ years of expertise.',
     images: ['/og-image.png'],
   },
-
-  /* ---------------- Robots ---------------- */
   robots: {
     index: true,
     follow: true,
@@ -67,12 +61,37 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
+  
+  // Organization Schema for Google Sitelinks & Knowledge Panel
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kubera Innovations",
+    "url": "https://kuberaio.com",
+    "logo": "https://kuberaio.com/favicon.ico",
+    "description": "Expert end-to-end electronics product development and engineering solutions.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "technical support",
+      "availableLanguage": ["en", "Telugu"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/kubera-systems"
+    ]
+  };
+
   return (
     <html
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable}`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="font-sans antialiased bg-white text-black">
         <Navbar />
         <main className="min-h-screen">{children}</main>
