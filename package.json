@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "kubera-Innovations-website",
-=======
-  "name": "kubera-innovations-website",
->>>>>>> b40223c740da8d27f52a324c8ef48f7ffe8f82db
   "version": "0.1.0",
   "private": true,
   "scripts": {
