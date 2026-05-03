@@ -14,7 +14,6 @@ const footerLinks = {
   company: [
     { name: 'About Us', href: '#about' },
     { name: 'Training', href: '#training' },
-    { name: 'Careers', href: '/careers' },
     { name: 'Products', href: '#products' },
     { name: 'Contact', href: '#contact' },
   ],
@@ -28,7 +27,7 @@ const footerLinks = {
 
 const socialLinks = [
   { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/monolabs.co.in/?viewAsMember=true' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/kuberaio.com' },
   { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
   { name: 'Email', icon: Mail, href: 'mailto:info@kuberaio.com' },
 ]
@@ -41,9 +40,14 @@ export function Footer() {
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-mono-green-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">K</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Kubera Innovations Logo"
+
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="font-bold text-lg text-gray-900">
                 Kubera <span className="text-mono-green-600">Innovations</span>
               </span>
