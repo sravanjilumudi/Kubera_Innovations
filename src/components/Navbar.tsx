@@ -12,6 +12,7 @@ const navLinks = [
   { name: 'Services', href: '/#services' },
   { name: 'Products', href: '/#products' },
   { name: 'Training', href: '/#training' },
+  { name: 'Careers', href: '/careers' },
   { name: 'Blog', href: '/#blog' },
   { name: 'Contact', href: '/#contact' },
 ]
@@ -76,13 +77,9 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 z-50">
-              <Image
-                src="/logo.png"
-                alt="Kubera Innovations Logo"
-                width={40}
-                height={40}
-                className="w-8 h-8 md:w-10 md:h-10"
-              />
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg bg-mono-green-600 flex items-center justify-center">
+                <span className="text-white font-bold text-sm md:text-base">K</span>
+              </div>
               <span className="font-bold text-lg md:text-xl text-gray-900">
                 Kubera <span className="text-mono-green-600">Innovations</span>
               </span>
