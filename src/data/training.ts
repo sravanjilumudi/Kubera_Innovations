@@ -1,4 +1,4 @@
-import { Cpu, Code, CircuitBoard, Shield, Wifi } from 'lucide-react'
+import { Cpu, Code, CircuitBoard, Shield, Wifi, Users } from 'lucide-react'
 import { LucideIcon } from 'lucide-react'
 
 export interface TrainingCourse {
@@ -62,6 +62,16 @@ export const trainingCourses: TrainingCourse[] = [
     format: ['online', 'hybrid'],
     topics: ['MQTT & CoAP', 'Edge Computing', 'Cloud Integration', 'IoT Security'],
     icon: Wifi,
+  },
+  {
+    id: 'corporate-training',
+    title: 'Corporate Training',
+    description: 'Customized training programs tailored for your organization. Upskill your team in electronics product development, hardware design, and embedded systems.',
+    duration: 'Flexible',
+    level: 'intermediate',
+    format: ['online', 'in-person', 'hybrid'],
+    topics: ['Hardware Design', 'Firmware Development', 'PCB Design', 'System Architecture', 'Team Workshops'],
+    icon: Users,
   },
 ]
 
